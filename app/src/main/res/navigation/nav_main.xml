@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/workoutProgramsFragment">
+
+    <fragment
+        android:id="@+id/workoutProgramsFragment"
+        android:name="com.xlt.chloeting.ui.fragments.WorkoutProgramsFragment"
+        android:label="fragment_workout_programs"
+        tools:layout="@layout/fragment_workout_programs" />
+    <fragment
+        android:id="@+id/recipesFragment"
+        android:name="com.xlt.chloeting.ui.fragments.RecipesFragment"
+        android:label="fragment_recipes"
+        tools:layout="@layout/fragment_recipes" />
+</navigation>

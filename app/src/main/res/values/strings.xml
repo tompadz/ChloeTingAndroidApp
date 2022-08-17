@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Chloe Ting Workout</string>
+
+    <string name="menu_filter">Filter</string>
+    <string name="menu_recipes">Recipes</string>
+    <string name="menu_workout">Workout</string>
+    <string name="menu_favourite">Favourite</string>
+
+    <string name="title_workout_program">Workout</string>
+    <string name="title_recipes">Recipes</string>
+
+    <string name="text_search_recipes">Search recipes</string>
+    <string name="text_days">days</string>
+    <string name="text_duration">Duration</string>
+    <string name="text_year">Year</string>
+    <string name="text_new">New</string>
+    <string name="text_empty">It seems to be empty.</string>
+
+    <string name="tab_program_all">All</string>
+    <string name="tab_program_abs">Abs</string>
+    <string name="tab_program_arms">Arms</string>
+    <string name="tab_program_booty">Booty</string>
+    <string name="tab_program_core">Core</string>
+    <string name="tab_program_full_body">Full body</string>
+    <string name="tab_program_legs">Legs</string>
+    <string name="tab_program_lower_body">Lower body</string>
+
+    <string name="button_apply_filter">Apply filters</string>
+    <string name="button_clear_filter">Clear filters</string>
+    <string name="button_try_again">Try again</string>
+
+    <string name="error_title">Oops… Something went wrong</string>
+    <string name="error_internal_title">Internal Server Error.</string>
+    <string name="error_not_impl">The server cannot fulfill the request.</string>
+    <string name="error_bad_gateway">The server received an invalid response.</string>
+    <string name="error_unavailable">The server is currently unavailable.</string>
+    <string name="error_timeout">Response time is up.</string>
+    <string name="error_network">Connection error.</string>
+    <string name="error_unknown">An unknown error has occurred.</string>
+    <string name="error_bad_request">Bad Request</string>
+
+    <string name="chip_1_14_days">1 – 14 days</string>
+    <string name="chip_5_25_days">5 – 25 days</string>
+    <string name="chip_22_28_days">22 – 28 days</string>
+    <string name="chip_29_days">29+ days</string>
+    <string name="chip_view_all">View all</string>
+    <string name="chip_2022_y">2022 y</string>
+    <string name="chip_2021_y">2021 y</string>
+    <string name="chip_2020_y">2020 y</string>
+    <string name="chip_2019_y">2019 y</string>
+    <string name="chip_2018_y">2018 y</string>
+</resources>

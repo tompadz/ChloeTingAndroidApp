@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/text_duration"
+        android:textSize="16sp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupDuration"
+        style="@style/Widget.MaterialComponents.ChipGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:checkedChip="@id/chipDurationAll"
+        app:chipSpacing="10dp"
+        app:chipSpacingHorizontal="15dp"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDurationAll"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_view_all"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDuration1_14Days"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_1_14_days"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip"
+            app:chipIcon="@null" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDuration5_25Days"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_5_25_days"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip"
+            app:chipIcon="@null" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDuration22_28Days"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_22_28_days"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip"
+            app:chipIcon="@null" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDuration29Days"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_29_days"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip"
+            app:chipIcon="@null" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/text_year"
+        android:textSize="16sp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupYear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:checkedChip="@id/chipYearAll"
+        app:chipSpacingHorizontal="15dp"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipYearAll"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_view_all"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipYear2022"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_2022_y"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipYear2021"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_2021_y"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipYear2020"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_2020_y"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipYear2019"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_2019_y"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipYear2018"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="@string/chip_2018_y"
+            android:textColor="@color/colors_chip_text"
+            app:chipBackgroundColor="@color/colors_chip" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/button_clear_filter"
+            app:icon="@drawable/ic_refresh" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonApply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/button_apply_filter"
+            app:icon="@drawable/ic_check" />
+    </LinearLayout>
+
+</LinearLayout>
